@@ -1,0 +1,115 @@
+(footprint "SPEAKER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6 2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7548becf-22a9-4eef-a7b7-e8bf241a61e8")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ba76bd72-0e2c-469a-8e84-d1e2ad2c3aa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "936cd970-fc8c-49d3-b0f2-a0256817debb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c310a62f-6397-4938-add8-71e1e2971f1b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4 -3)
+		(end 4 -3)
+		(stroke
+			(width 0.8128)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f778b750-34ff-46dc-902a-7f8ac804af7f")
+	)
+	(fp_line
+		(start -4 3)
+		(end -4 -3)
+		(stroke
+			(width 0.8128)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d022253-99f2-411f-9abd-608a76a7a0fc")
+	)
+	(fp_line
+		(start 4 -3)
+		(end 4 3)
+		(stroke
+			(width 0.8128)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81dbf161-f1d2-4a26-9b9b-85fba2fdf2f5")
+	)
+	(fp_line
+		(start 4 3)
+		(end -4 3)
+		(stroke
+			(width 0.8128)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24a2f4d4-717c-43f3-8bd6-b9e690fcc21f")
+	)
+	(pad "1" thru_hole circle
+		(at -1.75 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "782f52d0-0a73-4084-b5ba-3d7a961c3efe")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "63590670-49e7-4266-b6a6-22e613fe2d21")
+	)
+	(embedded_fonts no)
+)
