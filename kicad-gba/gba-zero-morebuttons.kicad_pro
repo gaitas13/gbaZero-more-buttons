@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/user/Documents/kicadgbaexports/gerbers/",
+      "plot": "C:/Users/user/Documents/kicadgbaexports/gerbers_drill/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "gba-zero-morebuttons.step",
